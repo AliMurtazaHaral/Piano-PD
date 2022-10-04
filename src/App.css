@@ -89,3 +89,17 @@ background: linear-gradient(90deg, rgba(1,4,14,255) 0%, rgba(0,17,25,255) 35%, r
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 768px) {
+  .App .form-section{
+    display: block;
+    margin-top: 60px;
+  }
+  .App  form input{
+    height: 40px;
+    width: 100%;
+    color: #122930;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+}
