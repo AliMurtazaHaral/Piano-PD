@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(1,4,14,255) 0%, rgba(0,17,25,255) 35%, rgba(1,28,35,255) 100%);
 }
 
 .App-logo {
@@ -23,7 +29,54 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+  .App h2{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+  }
+  .App img{
+    margin-top: -50px;
+  }
+  .App p{
+    color: grey;
+    text-align: left;
+    line-height: 2rem;
+  }
+  .App button{
+    background-color: #022027;
+    width: 100%;
+    height: 70px;
+    border: none;
+  }
+  .App .submit-section{
+    background-color: #043b39;
+  }
+  .App .submit-section h3{
+    color: #99a4a3;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 25px;
+  }
+  .App .form-section{
+    display: flex;
+    margin-top: 60px;
+  }
+  .App  form input{
+    height: 40px;
+    width: 410px;
+    color: #122930;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  .App .submit-button{
+    width: 45%;
+    height: 40px;
+    border: #fff solid .5px;
+    background: linear-gradient(90deg, rgba(4,58,56,255) 0%, rgba(0,17,25,255) 35%, rgba(1,4,14,255) 100%);
+    color: #fff;
+  }
 .App-link {
   color: #61dafb;
 }
