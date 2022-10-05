@@ -1,0 +1,32 @@
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    width: 100%;
+  }
+  .main {
+    display: flex;
+  }
+  
+  .top10{
+    margin-right: 50px;
+  }
+  h1{
+    color: #fff;
+  }
+  
+  
+  .trending-exclusive{
+    background-color: #022027;
+    display: flex;
+    width: 600px;
+    height: 140px;
+    margin-right: 20px;
+  }
+  .trending-exclusive h3{
+    color: #fff;
+  }
+  .trending-exclusive div{
+    margin-left: 1.5rem;
+  }
